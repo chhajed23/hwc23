@@ -15,7 +15,7 @@
         display(){
             var pos=this.body.position;
             rectMode(CENTER);
-            fill (180);
+            fill ("red");
             rect(pos.x,pos.y,this.width,this.height);
         }
     }
